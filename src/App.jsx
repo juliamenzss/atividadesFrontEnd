@@ -1,12 +1,11 @@
-import React from 'react'
-import RenderizandoComFuncoes from './components/RenderizandoComFuncoes'
-import TrabalhandoComImagens from './components/TrabalhandoComImagens'
+import EstouComSono from "./components/EstouComSono"
+import EstouConseguindoAprenderReact from "./components/EstouConseguindoAprenderReact"
 
 function App() {
   return (
     <div>
-      <RenderizandoComFuncoes />
-      <TrabalhandoComImagens />
+      <EstouConseguindoAprenderReact estouConseguindo={true}/>
+      <EstouComSono comSono={true} />
     </div>
   )
 }
